@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
 }
 
 .dark-background {
