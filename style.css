@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dark-background {
+    background-color: #1f2937;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary {
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 200px;
+    color:#f9faf8;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header .right-elements {
+    display: flex;
+    gap: 20px;
+}
+
+.body-one {
+    display: flex;
+    padding: 180px 200px;
+    gap: 46px;
+    color: #ebe7eb;
+}
+
+.body-one .content {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 220px;
+    flex: 1;
+    gap: 10px;
+}
+
+.body-one .placeholder {
+    display: flex;
+    width: 500px;
+    height: 220px;
+    flex: 1;
+    background-color: #595963;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    padding: 5px 16px;
+    font-size: 18px;
+    flex-grow: 0;
+    border-radius: 10px;
+    border-width: 2px;
+    color: #ebe7eb;
+    background-color: #3882f6;
+    }
+
+.body-one .content button {
+    border-color: #3882f6;
+}
+
+.body-two {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.body-two .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.body-two .content {
+display: flex;    
+padding: 50px 90px;
+gap: 40px
+}
+
+.body-two .content .card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 10px;
+}
+
+.square {
+    height: 150px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 20px;
+}
+
+.subtext {
+    text-align: center;
+}
+
+.body-three {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.body-three .quote{
+
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.body-three .thor {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: end;
+}
+
+.box {
+    margin: 80px 200px;
+    display: flex;
+    background-color:#3882f6;
+    color: #f9faf8;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 50px 100px;
+    }
+
+.box .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.box .content .title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.box button {
+    flex-grow: 0;
+    border-color: #f9faf8;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+}
